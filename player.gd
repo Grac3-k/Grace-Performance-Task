@@ -28,6 +28,6 @@ func _process(delta):
 func _on_body_entered(body):
 	hide()
 	
-	enemy_hit
+	enemy_hit.play()
 	bgmusic.stop()
 	
